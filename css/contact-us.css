@@ -4,19 +4,56 @@
     padding: 0%;
     margin: 0%;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 .form{
-    background-color: #656969;
+    background-color: transparent;
     width: 389px;
-    border: 1px solid black;
-    padding: 10px;
+    border: 3px solid rgb(255, 254, 254);
+    padding: 15px;
     margin: 10px;
+    position: absolute;
+    right: 203px;
+    height: 267px;
+    border-radius: 15px;
+    box-shadow: 8px 9px 13px rgb(28 29 29);
 }
 input{
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 4px;
     padding-left: 10px;
     font-size: 1rem;
     border-style: none;
     margin: 7px;
+    line-height: 28px;
+    width: 348px;
+}
+.textarea{
+    display: inline-table;
+    width: 348px;
+    height: 100px;
+    padding-left: 10px;
+    border-radius: 7px;
+    font-size: 1rem;
+    line-height: 28px;
+    border-style: none;
+}
+.txt u{
+    color: #2e2b2b;
+
+}
+.area{
+    padding-left: 9px;
+}
+
+.btn-1{
+    cursor: pointer;
+    width: 98%;
+    border: 1px solid black;
+    height: 33px;
+    margin-top: 8px;
+    border-style: none;
+    border-radius: 7px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
 }
